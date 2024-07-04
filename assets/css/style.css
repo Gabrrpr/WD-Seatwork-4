@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     scroll-behavior: smooth;
-    background-color: #F5F5F5;
+    background-color: #eada9f;
 }
 
 header {
@@ -31,10 +33,9 @@ header .logo {
     width: 90%;
     text-align: center;
     margin: 50px auto;
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: large;
 }
 
 .header, h1 {
@@ -65,10 +66,16 @@ header .logo {
 }
 
 .features {
+    margin-top: 30px;
     width: 80%;
     margin: 20px;
     text-align: center;
-    font-size: xx-large;
+}
+
+.feature-text {
+    font-family: 'Wittgenstein', sans-serif;
+    font-weight: 1000;
+    font-size: 40px; /* Adjust this value to change the size */
 }
 
 .cards-container {
@@ -95,34 +102,57 @@ header .logo {
     }
 }
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    transform: translateX(-80px);
+}
+
+.card-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 100px;
+}
+
 .card-valorant {
     width: 300px;
     height: 200px;
     perspective: 1000px;
-  }
-  
-  .card-inner {
-    width: 100%;
+}
+
+.card-geometry-dash {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.card-inner {
+    width: 150%;
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.999s;
-  }
-  
-  .card:hover .card-inner {
+}
+
+.card-valorant:hover .card-inner,
+.card-geometry-dash:hover .card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .card-front,
-  .card-back {
+}
+
+.card-front,
+.card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-  }
-  
-  .card-front {
-    background-color: #6A2C70;
+}
+
+.card-valorant .card-front {
+    background: url("../img/Valorant_1591218052835_1591218061187.webp");
+    background-size: cover;
     color: #fff;
     display: flex;
     align-items: center;
@@ -131,9 +161,22 @@ header .logo {
     justify-content: center;
     font-size: 24px;
     transform: rotateY(0deg);
-  }
-  
-  .card-back {
+}
+
+.card-geometry-dash .card-front {
+    background: url("../img/GeometryDashCover.webp");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #6A2C70;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+}
+
+.card-back {
     background-color: #F08A5D;
     color: #fff;
     display: flex;
@@ -143,7 +186,8 @@ header .logo {
     justify-content: center;
     font-size: 24px;
     transform: rotateY(180deg);
-  }
+}
+
 
 
 
