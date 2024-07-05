@@ -1,3 +1,4 @@
+/* General reset and imports */
 @import url("https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 
@@ -21,7 +22,7 @@ header {
     display: flex;
     justify-content: flex-start;
     padding: 10px 20px;
-    background-color: #F5F5F5;
+    background-color: #e8c5ae;
 }
 
 header .logo {
@@ -187,6 +188,59 @@ header .logo {
     font-size: 24px;
     transform: rotateY(180deg);
 }
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .copyright {
+    flex: 1;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+footer .social {
+    flex: 1;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+footer .social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer .social a.support {
+    margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .copyright, footer .social {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    footer .social a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
 
 
 
