@@ -59,15 +59,15 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-This project centers on a features and strcture that includes the hero section and the 
-feature section. The hero section serves as an introduction, highlighting key aspects of the 
-gaming experience or any type of website for the users to view. Additionally, the features 
+This project centers on a features and structure that includes the hero section and the
+feature section. The hero section serves as an introduction, highlighting key aspects of the
+gaming experience or any type of website for the users to view. Additionally, the features
 section provides detailed insights into the game's mechanics, having a deeper understanding
 of ots gameplay dynamics and challenges.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
