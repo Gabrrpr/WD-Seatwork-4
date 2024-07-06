@@ -68,6 +68,7 @@ of ots gameplay dynamics and challenges.
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
+- Each feature page has its unique designs
 
 ### Technology
 <!-- TODO: List of Technology Used -->

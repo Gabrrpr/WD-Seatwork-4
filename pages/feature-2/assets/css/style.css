@@ -62,6 +62,17 @@ header {
     }
 }
 
+.btn:hover,
+.btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #010000;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
