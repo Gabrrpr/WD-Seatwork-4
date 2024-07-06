@@ -96,7 +96,8 @@ header .logo {
     width: 100%;
     text-align: center;
     margin: 50px auto;
-    background-color: #d6d6d6;
+    background: url("../../../feature-1/assets/img/giphy.webp") no-repeat center center;
+    background-size: cover;
     padding: 50px 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -108,7 +109,7 @@ header .logo {
 
 .hero p {
     font-size: 1.5em;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 50px;
 }
 
@@ -116,7 +117,7 @@ header .logo {
     width: 100%;
     padding: 50px 20px;
     background-color: #dcdcdcfa;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 50px;
 }
 
@@ -138,7 +139,7 @@ header .logo {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     text-align: center;
 }
 

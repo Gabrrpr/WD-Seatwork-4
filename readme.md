@@ -112,5 +112,10 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-| Navigation buttons designs | Users to navigate the website | https://getcssscan.com/css-buttons-examples|
+| Navigation buttons designs | Users to navigate the website | https://getcssscan.com/css-buttons-examples |
+
+| Valorant Gif | Hero Moving image | https://giphy.com/gifs/Valorant-Esports-valorant-champions-tour-vct-emea-jRtZJvoWxWVJ7uF1cx |
+
+| Valorant Gif | Hero Moving image | https://giphy.com/gifs/Valorant-Esports-valorant-champions-tour-vct-emea-jRtZJvoWxWVJ7uF1cx |
+
 
