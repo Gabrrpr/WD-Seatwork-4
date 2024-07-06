@@ -111,11 +111,18 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
 | Navigation buttons designs | Users to navigate the website | https://getcssscan.com/css-buttons-examples |
 
 | Valorant Gif | Hero Moving image | https://giphy.com/gifs/Valorant-Esports-valorant-champions-tour-vct-emea-jRtZJvoWxWVJ7uF1cx |
 
-| Valorant Gif | Hero Moving image | https://giphy.com/gifs/Valorant-Esports-valorant-champions-tour-vct-emea-jRtZJvoWxWVJ7uF1cx |
+| Geometry Dash Gif | Hero Moving image | https://gifs.com/gif/geometry-dash-lvl-17-blast-processing-100-all-coins-VmWgYO |
+
+| Css Card designs | Feature Descriptions | https://uiverse.io/cards |
+
+| Github Icon | Github logo footer | https://icons.getbootstrap.com/ |
+
+
+
+
 
 
